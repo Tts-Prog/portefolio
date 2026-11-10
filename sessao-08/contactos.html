@@ -1,0 +1,289 @@
+<!doctype html>
+<html lang="pt-PT">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Entre em contacto com Ana Martins para propostas de estágio, projetos de desenvolvimento web ou esclarecimento de dúvidas."
+    />
+    <meta name="author" content="Ana Martins" />
+    <title>Contactos | Ana Martins</title>
+    <link rel="icon" type="image/svg+xml" href="imagens/favicon.svg" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <!-- Apresentação -->
+      <img
+        src="imagens/foto.svg"
+        alt="Ilustração do rosto de Ana Martins, a sorrir"
+        width="160"
+        height="160"
+      />
+      <h1>Ana Martins</h1>
+      <p>
+        Futura <strong>programadora web</strong>, a aprender a construir sites
+        de raiz.
+      </p>
+
+      <nav>
+        <ul>
+          <li><a href="index.html">Início</a></li>
+          <li><a href="projetos.html">Projetos</a></li>
+          <li><a href="contactos.html">Contactos</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <!-- Contactos Principais -->
+        <h2>Vamos conversar?</h2>
+        <p>
+          Estou disponível para novas oportunidades de estágio e colaboração a
+          partir de 2027. Podem entrar em contacto comigo através dos seguintes
+          canais:
+        </p>
+
+        <ul>
+          <li>
+            <strong>E-mail:</strong>
+            <a href="mailto:ana.martins@exemplo.pt" class="destaque"
+              >ana.martins@exemplo.pt</a
+            >
+          </li>
+          <li>
+            <strong>GitHub:</strong>
+            <a
+              href="https://github.com/ana-martins-dev"
+              target="_blank"
+              rel="noreferrer noopener"
+              >github.com/ana-martins-dev</a
+            >
+          </li>
+          <li>
+            <strong>Localização:</strong> Setúbal, Portugal (disponível para
+            trabalho presencial ou remoto)
+          </li>
+        </ul>
+
+        <aside class="curiosidade">
+          <p>
+            <strong>Nota:</strong> Costumo responder a todas as mensagens no
+            prazo máximo de 24 horas úteis.
+          </p>
+        </aside>
+      </section>
+
+      <section id="formulario-contacto">
+        <!-- Formulário de Contacto com Validação HTML5 -->
+        <h2>Envie uma mensagem</h2>
+        <p>
+          Se preferir, pode enviar uma mensagem diretamente através do
+          formulário abaixo:
+        </p>
+
+        <form action="#" method="post">
+          <fieldset>
+            <legend>Os seus dados</legend>
+
+            <p>
+              <label for="nome">Nome completo:</label>
+              <input
+                type="text"
+                id="nome"
+                name="nome"
+                placeholder="Ex.: Maria Santos"
+                required
+                minlength="3"
+                maxlength="80"
+              />
+            </p>
+
+            <p>
+              <label for="email">Correio eletrónico:</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="maria.santos@exemplo.pt"
+                required
+              />
+            </p>
+
+            <p>
+              <label for="telefone">Telefone (opcional):</label>
+              <input
+                type="tel"
+                id="telefone"
+                name="telefone"
+                placeholder="912345678"
+                pattern="[0-9]{9}"
+                title="Indique um contacto telefónico válido com 9 algarismos"
+              />
+            </p>
+          </fieldset>
+
+          <fieldset>
+            <legend>Motivo do contacto</legend>
+
+            <p>
+              <label for="assunto">Assunto principal:</label>
+              <select id="assunto" name="assunto" required>
+                <option value="">-- Por favor, selecione uma opção --</option>
+                <option value="estagio">Proposta de estágio</option>
+                <option value="projeto">Projeto ou colaboração</option>
+                <option value="duvida">Dúvida ou esclarecimento</option>
+                <option value="outro">Outro assunto</option>
+              </select>
+            </p>
+
+            <p>Como teve conhecimento do meu portefólio?</p>
+            <p>
+              <input
+                type="radio"
+                id="origem-linkedin"
+                name="origem"
+                value="linkedin"
+                checked
+              />
+              <label for="origem-linkedin">LinkedIn</label><br />
+
+              <input
+                type="radio"
+                id="origem-github"
+                name="origem"
+                value="github"
+              />
+              <label for="origem-github">GitHub</label><br />
+
+              <input
+                type="radio"
+                id="origem-recomendacao"
+                name="origem"
+                value="recomendacao"
+              />
+              <label for="origem-recomendacao">Recomendação direta</label><br />
+
+              <input
+                type="radio"
+                id="origem-outro"
+                name="origem"
+                value="outro"
+              />
+              <label for="origem-outro">Outro meio</label>
+            </p>
+
+            <p>Áreas de interesse conjunto:</p>
+            <p>
+              <input
+                type="checkbox"
+                id="interesse-frontend"
+                name="interesse"
+                value="frontend"
+              />
+              <label for="interesse-frontend">Desenvolvimento Frontend</label
+              ><br />
+
+              <input
+                type="checkbox"
+                id="interesse-backend"
+                name="interesse"
+                value="backend"
+              />
+              <label for="interesse-backend">Desenvolvimento Backend</label
+              ><br />
+
+              <input
+                type="checkbox"
+                id="interesse-acessibilidade"
+                name="interesse"
+                value="acessibilidade"
+              />
+              <label for="interesse-acessibilidade">Acessibilidade Web</label>
+            </p>
+
+            <p>
+              <label for="mensagem">Mensagem detalhada:</label>
+              <textarea
+                id="mensagem"
+                name="mensagem"
+                rows="6"
+                cols="40"
+                placeholder="Escreva aqui a sua mensagem..."
+                required
+                minlength="10"
+                maxlength="1000"
+              ></textarea>
+            </p>
+
+            <p>
+              <input
+                type="checkbox"
+                id="autorizacao"
+                name="autorizacao"
+                value="sim"
+                required
+              />
+              <label for="autorizacao"
+                >Autorizo o tratamento destes dados exclusivamente para efeitos
+                de resposta a este contacto.</label
+              >
+            </p>
+          </fieldset>
+
+          <p>
+            <button type="submit" class="botao">Enviar mensagem</button>
+            <button type="reset" class="botao botao-secundario">
+              Limpar formulário
+            </button>
+          </p>
+        </form>
+      </section>
+
+      <section>
+        <!-- Disponibilidade -->
+        <h2>Horário de disponibilidade</h2>
+        <p>
+          Os períodos em que estou mais facilmente contactável para reuniões ou
+          conversas informais:
+        </p>
+
+        <table>
+          <caption>
+            Disponibilidade semanal para contacto e reuniões
+          </caption>
+          <thead>
+            <tr>
+              <th scope="col">Dias da semana</th>
+              <th scope="col">Horário</th>
+              <th scope="col">Formato preferencial</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">Segunda a Sexta</th>
+              <td>09:00 – 18:00</td>
+              <td>E-mail ou videoconferência</td>
+            </tr>
+            <tr>
+              <th scope="row">Sábado</th>
+              <td>10:00 – 13:00</td>
+              <td>E-mail</td>
+            </tr>
+            <tr>
+              <th scope="row">Domingo</th>
+              <td>Indisponível</td>
+              <td>Descanso semanal</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2026 Ana Martins</p>
+    </footer>
+  </body>
+</html>

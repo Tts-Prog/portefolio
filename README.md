@@ -22,11 +22,11 @@ O roteiro segue o plano da UF. Pode mudar ao longo das aulas, conforme o ritmo d
 2. **Aula 02** ✅ ([`sessao-02/`](./sessao-02/)): estrutura completa (doctype, head, body); secções "Sobre mim", "O meu percurso" e "Contactos" com títulos, parágrafos, ênfase, comentários e entidades.
 3. **Aula 03** ✅ ([`sessao-03/`](./sessao-03/)): o portefólio passa a ser um repositório Git, publicado no GitHub; fotografia com `<img>`, abreviatura, `span` com `lang` e um testemunho com `blockquote` e `div`.
 4. **Aula 04** ✅ ([`sessao-04/`](./sessao-04/)): organizar a página com `header`, `nav`, `main`, `section`, `article`, `aside` e `footer`; um `aside` com curiosidade; a `div` do testemunho torna-se `article`.
-5. **Aula 05** ⏳: novas páginas `projetos.html` e `contactos.html`; menu de navegação entre as páginas; links para o e-mail e para o GitHub; listas de competências; uma tabela com o percurso (anos, formação ou emprego, local).
-6. **Aula 06** ⏳: formulário de contacto em `contactos.html` (nome, e-mail, assunto, mensagem).
-7. **Aula 07** ⏳: validação HTML5 no formulário; `<meta>` description, viewport e favicon em todas as páginas.
-8. **Aula 08** ⏳: criar `css/style.css` e ligá-lo a todas as páginas; primeiras regras com seletores de tipo, classe e id.
-9. **Aula 09** ⏳: identidade visual (fontes, cores, unidades); cartões de projeto e do testemunho com o box model.
+5. **Aula 05** ✅ ([`sessao-05/`](./sessao-05/)): novas páginas `projetos.html` e `contactos.html`; menu de navegação entre as páginas; links para o e-mail e para o GitHub; listas de competências; uma tabela com o percurso (anos, formação ou emprego, local).
+6. **Aula 06** ✅ ([`sessao-06/`](./sessao-06/)): formulário de contacto em `contactos.html` (nome, e-mail, assunto, mensagem).
+7. **Aula 07** ✅ ([`sessao-07/`](./sessao-07/)): validação HTML5 no formulário; `<meta>` description, viewport e favicon em todas as páginas.
+8. **Aula 08** ✅ ([`sessao-08/`](./sessao-08/)): criar `css/style.css` e ligá-lo a todas as páginas; primeiras regras com seletores de tipo, classe e id.
+9. **Aula 09** ✅ (a pasta `sessao-09/` é guardada no fim da aula): identidade visual (paleta de cores, fonte do Google Fonts, unidades `rem`/`em`); conteúdo centrado com `max-width`; cartões, notas, botões, tabelas e formulário com o box model e `box-sizing: border-box`.
 10. **Aula 10** ⏳: cabeçalho e menu com Flexbox; grelha de projetos com Grid (com `flex-wrap`/`auto-fit` para se adaptar à largura do ecrã).
 11. **Aula 11** ⏳: imagens dos projetos com `figure`/`figcaption`, um vídeo curto de apresentação; efeitos `:hover`/`:focus` e transições.
 12. **Aula 12**: pausa no projeto (avaliação individual).
